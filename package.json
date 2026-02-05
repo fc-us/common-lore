@@ -1,8 +1,8 @@
 {
-  "name": "crossings",
+  "name": "common-lore",
   "version": "1.0.0",
   "private": true,
-  "description": "Crossings: Guided Conversation Game - A digital card game for meaningful cross-cultural conversations",
+  "description": "Common Lore - A digital card game for meaningful cross-cultural conversations",
   "scripts": {
     "dev": "turbo dev",
     "build": "turbo build",

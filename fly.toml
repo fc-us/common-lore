@@ -1,5 +1,5 @@
-# fly.toml - Fly.io configuration for Crossings backend
-app = "crossings-api"
+# fly.toml - Fly.io configuration for Common Lore backend
+app = "common-lore-api"
 primary_region = "iad"
 
 [build]
@@ -20,4 +20,4 @@ primary_region = "iad"
 [env]
   NODE_ENV = "production"
   PORT = "3001"
-  CORS_ORIGIN = "https://crossings-card-game.pages.dev"
+  CORS_ORIGIN = "https://common-lore.pages.dev"

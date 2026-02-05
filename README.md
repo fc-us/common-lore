@@ -1,10 +1,11 @@
-# Crossings Card Game
+# Common Lore
 
 A real-time multiplayer web application for the "Crossings: Guided Conversation Game" - facilitating meaningful cross-cultural conversations through thoughtful prompts and interactive gameplay.
 
 ## Live Demo
 
-**Frontend:** https://crossings-card-game.pages.dev
+**Frontend:** https://common-lore.pages.dev
+**Backend API:** https://common-lore-api.fly.dev
 
 ## Features
 
@@ -69,8 +70,8 @@ crossings/
 
 ```bash
 # Clone the repository
-git clone https://github.com/fc-us/crossings.git
-cd crossings
+git clone https://github.com/fc-us/common-lore.git
+cd common-lore
 
 # Install dependencies
 pnpm install
@@ -152,7 +153,7 @@ CORS_ORIGIN=http://localhost:3000
 ```bash
 cd apps/web
 pnpm build
-wrangler pages deploy dist --project-name=crossings-card-game
+wrangler pages deploy dist --project-name=common-lore
 ```
 
 ### Backend

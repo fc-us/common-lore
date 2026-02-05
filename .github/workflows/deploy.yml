@@ -57,7 +57,7 @@ jobs:
       - name: Build frontend
         run: pnpm --filter @crossings/web build
         env:
-          VITE_SERVER_URL: ${{ vars.VITE_SERVER_URL }}
+          VITE_SERVER_URL: ${{ vars.VITE_SERVER_URL || 'https://common-lore-api.fly.dev' }}
 
       - name: Upload frontend artifact
         uses: actions/upload-artifact@v4
@@ -83,7 +83,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: crossings-card-game
+          projectName: common-lore
           directory: apps/web/dist
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
