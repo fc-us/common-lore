@@ -1,4 +1,4 @@
-# Crossings Card Game
+# Common Lore Card Game
 
 A real-time multiplayer web application for the "Crossings: Guided Conversation Game" - facilitating meaningful cross-cultural conversations through thoughtful prompts and interactive gameplay.
 
